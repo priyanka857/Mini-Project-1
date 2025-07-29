@@ -1,0 +1,229 @@
+* {
+  margin: 0%;
+  padding: 0%;
+}
+.navbar {
+  display: flex;
+  background-color: rgb(0, 132, 255);
+  justify-content: space-between;
+}
+.navbar img {
+  border-radius: 100%;
+  padding-top: 1px;
+  width: 100px;
+  height: 100px;
+}
+.navbar h1 {
+  background-color: rgb(0, 132, 255);
+  padding: 30px;
+  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+}
+ul {
+  display: inline-block;
+  margin-block-start: 2em;
+  margin-block-end: 2em;
+}
+.navbar li {
+  display: inline-block;
+  color: black;
+  text-decoration: none;
+  padding: 20px 50px;
+  font-family: "Courier New", Courier, monospace;
+}
+.navbar li a {
+  text-decoration: none;
+  color: black;
+  font-family: "Courier New", Courier, monospace;
+}
+.navbar li a:hover,
+.navbar li a:active {
+  text-decoration: underline;
+  color: red;
+}
+.banner img {
+  width: 100%;
+  max-height: 650px;
+}
+.service {
+  width: 100%;
+  display: flex;
+  justify-content: space-around;
+  height: 60vh;
+  position: relative;
+}
+.service img {
+  width: 50%;
+  margin-top: 20px;
+  height: 30%;
+  position: relative;
+  margin-bottom: 230px;
+}
+.service-head {
+  width: 100%;
+  text-align: center;
+}
+.service-title-content {
+  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+  color: rgb(137, 61, 207);
+  font-weight: 600;
+}
+.service-title {
+  text-align: center;
+  font-family: "Courier New", Courier, monospace;
+  padding: 25px;
+  color: black;
+  font-weight: 900;
+  font-size: 25px;
+}
+.service-images {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 70vh;
+}
+.service ul {
+  padding-right: 60px;
+  padding-bottom: 165px;
+}
+.service li {
+  color: rgb(11, 125, 70);
+  font-size: 20px;
+  font-weight: 700;
+  text-decoration: none;
+  padding: 6px;
+  display: flex;
+  font-family: "Times New Roman", Times, serif;
+}
+.testimonial {
+  background-color: rgb(0, 132, 255);
+  width: 100%;
+  height: 61vh;
+  color: white;
+  text-align: center;
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+.testimonial-title {
+  padding: 12px;
+  color: black;
+  font-family: "Courier New", Courier, monospace;
+  font-size: 20px;
+  font-weight: 700;
+}
+.testimonial-head {
+  text-align: center;
+}
+.testimonial-title-content {
+  font-family: Georgia, Times, "Times New Roman", serif;
+  color: rgb(14, 4, 24);
+  font-weight: 600;
+}
+.t-text1,
+.t-text2,
+.t-text3 {
+  width: 350px;
+  padding: 8px;
+}
+.t-info {
+  font-weight: 700;
+  padding: 1px;
+}
+.testimonial-cards {
+  padding: 20px;
+  display: flex;
+  justify-content: space-around;
+  text-align: center;
+  align-items: center;
+  height: 50vh;
+}
+
+.testimonial-1,
+.testimonial-2,
+.testimonial-3 {
+  border: 2px solid black;
+  padding: 24px;
+}
+.t-img1,
+.t-img2,
+.t-img3 {
+  object-fit: contain;
+  border-radius: 100%;
+  width: 150px;
+  height: 100px;
+  margin: 24px;
+}
+.t-text {
+  margin: auto;
+  width: 650px;
+  padding: 16px;
+}
+.video {
+  text-align: center;
+}
+.video p {
+  font-family: "Courier New", Courier, monospace;
+  font-weight: 700;
+}
+.video li a:hover,
+.video li a:active {
+  text-decoration: underline;
+  color: red;
+}
+.video li a {
+  text-decoration: none;
+
+  font-family: "Courier New", Courier, monospace;
+}
+.contact {
+  width: 100%;
+  padding-bottom: 36px;
+}
+.contact-head {
+  font-family: "Courier New", Courier, monospace;
+  color: black;
+  text-align: center;
+  padding: 36px;
+  font-weight: 700;
+  font-size: 20px;
+}
+.contact-space {
+  width: 70%;
+  height: 70vh;
+  background-color: rgb(0, 132, 255);
+  margin: auto;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+.contact-form input {
+  width: 300px;
+  height: 25px;
+  margin: 12px;
+  border: none;
+  padding: 10px;
+}
+.contact-form button {
+  margin: 12px;
+  background-color: rgb(0, 255, 255);
+  border: none;
+  padding: 8px 16px;
+}
+.contact-details {
+  color: white;
+  text-align: center;
+}
+.contact-details-head {
+  padding: 16px;
+  font-weight: 700;
+  font-size: 20px;
+}
+.footer {
+  background-color: rgb(0, 132, 255);
+  color: white;
+  text-align: center;
+  padding: 10px;
+  font-size: 12px;
+  text-transform: capitalize;
+}
